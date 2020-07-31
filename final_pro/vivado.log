@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 27 16:48:05 2020
+# Process ID: 11476
+# Current directory: F:/vivado/peixun/final_pro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18036 F:\vivado\peixun\final_pro\final_pro.xpr
+# Log file: F:/vivado/peixun/final_pro/vivado.log
+# Journal file: F:/vivado/peixun/final_pro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/peixun/final_pro/final_pro.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 735.609 ; gain = 141.273
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Mon Jul 27 16:50:12 2020] Launched synth_1...
+Run output will be captured here: F:/vivado/peixun/final_pro/final_pro.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 27 16:54:31 2020...
